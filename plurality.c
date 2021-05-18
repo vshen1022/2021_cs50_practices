@@ -66,7 +66,6 @@ int main(int argc, string argv[])
 // Update vote totals given a new vote
 bool vote(string name)
 {
-    // TODO
     for (int i = 0; i < candidate_count; i++ )
     {
        if (strcmp(name, candidates[i].name) == 0) //確認使用者投票給誰
@@ -82,7 +81,6 @@ bool vote(string name)
 // Print the winner (or winners) of the election
 void print_winner(void)
 {
-    // TODO
     int highest_votes = 0;
 
     for (int i = 0; i < candidate_count; i++) //找出最高得票數
